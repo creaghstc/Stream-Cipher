@@ -1,8 +1,7 @@
 from Encrypt import encrypt
 
-def Decrypt(CipherText, key):
+def decrypt(CipherText, key):
 	message = encrypt(CipherText, key)
 	return(message)
 
-print(Decrypt("00110", "11111"))
-input("press")
+

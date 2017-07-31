@@ -1,7 +1,7 @@
 def encrypt(message, key):
 	cipherText = []
 
-	if len(key) != len(message):
+	if len(key) < len(message):
 		print("Insufficient key length")
 
 	for el in range(len(message)):
@@ -11,3 +11,4 @@ def encrypt(message, key):
 
 #print(encrypt("11001", "11111"))
 #input("Any Key to close")
+	
