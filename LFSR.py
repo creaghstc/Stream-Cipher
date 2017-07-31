@@ -20,5 +20,5 @@ def LFSR(seed, taps):
 
     return "".join(key) #return the key stream
 
-print(LFSR("1100", (2,4)))
+print(LFSR("01100100", (8,6,5,4)))
 input("Any Key to close")
