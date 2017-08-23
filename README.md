@@ -7,3 +7,6 @@
 <h2>Aims</h2>
 <p>Expand the system to allow input of a file for encryption, first text file and then maybe progress to image files.
 Add a GUI using Tkinter?</p>
+
+<h2>Testing</h2>
+<img src = "test.PNG">
